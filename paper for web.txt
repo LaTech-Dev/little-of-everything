@@ -1,0 +1,68 @@
+                              'Little of Everything' History  
+
+		---8/30/2025
+This is a test file to display on a web
+for Wyatt to learn how it works.  
+
+I don't know if it will work the first
+time but it will later.
+
+Well it did work the first time to my surprise. Emma would be impressed at my BS skills. 
+
+		---9/2/2025
+We were wondering the plans for today. 
+Bella rode the Metro with Edward and they now are headed in this direction after dropping Ben. 
+
+		---9/4/2025
+Today is a very bright day. Few clouds and no chance of rain. Temp is going to be very warm. Looking forward to the weekend when it won't be quite as warm. May get some rain on Sunday. 
+
+Wyatt called last night and asked about using Hex to assign color in web pages. I didn't know and had to research it. Found out there are many possible colors based on the code structure. The structure is #RRGGBB where R is red, G is green and B is blue. What goes in the fields are the Hex numbers - 0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F - for each of the colors. Each of the positions could have "00" to "FF" in them.  
+
+I intend to research how to determine just how many possible colors that could be. I also want to research how to change text color in this text file. 
+
+Since there are three independent color channels (Red, Green, Blue), and each channel can have 256 possible values, the total number of unique color combinations is found by multiplying the possibilities for each channel:  that turns out to be 256 cubed.  Therefore, there are 16,777,216 possible unique color combinations that can be represented using standard six-digit HTML hex codes.
+
+It does not appear to be a reasonable idea to color lines or words in the text file displayed at the moment. I will continue to look for a solution.
+
+		---9/5/2025
+Added JavaScript features to get the time and date in two ways by selecting buttons. 
+Added JavaScript feature to change the file being displayed in the iFrame. 
+Added JavaScript feature to change the Web being displayed. 
+Added some comments for documentation. 
+
+		---9/6/2025
+Worked with 'Y'  on his class html. 
+We made it go to another html and return.
+We also learned about colors and changing parts of the web
+
+		---9/7/2025
+Worked with 'Y' learning proper terms for html statements - I had to learn also since I didn't know. 
+Also took several practice tests where he did well.
+Added every thing we learned yesterday and today to Little of Everything (littleofeverything.html)
+
+		---9/8/2025
+Researched ways to password protect displayed files. Results were not very satisfying. Quite complicated procedures.
+Researched updating this file through the WEB. Again to complex for benefit. 
+Decided to not do either.
+
+		---9/9/2025
+*Looking at ways to display different text files instead of hard coding file names.
+*Looks like there will have to be a coding change and a selection line for each file wanted to display. 
+
+		---9/10/2025
+*Refined littlebitofeverything html structure to use  simpler code, more tables and less requirement to change code each time a new file is added. 
+*Changed to MISC Files and a PYTHON Files pages grouping like information. 
+*Researched ways to keep things in an out of the program file instead of having to put the info in html code but apple security keeps getting in the way. 
+*Plan to add a SWIFT page in the future.
+
+                ---9/15/2025
+Up graded OS of Mac, iPad and one iPhone to latest '26' release. All look OK but display Seems a little too bright.
+So far new functionality on the iPad is a little disappointing as it seems to have contrast problem. 
+Yesterday helped Wyatt do some catching up on html tables. 
+Also learned that instead of using <p> I could usr <pre> and the paragraph would be formatted just as typed.
+
+
+
+   
+ 
+ 

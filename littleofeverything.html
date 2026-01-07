@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Little of Everything</title>
+</head>
+<body style="background-color:lightyellow;">
+
+<!-- This is a comment -->
+<!-- This WEB is a lot of elements rolled into one file 
+     To both try and leave a reference to remind how to do -->
+
+<h1 style="color:#00f000">This is a page with things "The Y-Man" has used</h1>
+
+<!-- buttons to move to additional screens -->
+
+<button onclick="window.location.replace('Display Misc Items.html')">Misc Items Screen</button>
+<button onclick="window.location.replace('Display expansion Items.html')">Expansion Items Screen</button>
+<button onclick="window.location.replace('Display Python Items.html')">Python Items Screen</button><br><br>
+
+<!-- button to exec a called time/date routine -->
+
+<button type="button" onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+
+<p style="color:blue;"><br>
+Wyatt is an ice cream lover<br> He takes after his father<br>
+They both love vanilla<br> 
+But Wyatt's favorite is Chocolate Chip Cookie Dough</p>
+
+<!-- iframe to display contents of a file -->
+
+<iframe id="myIframe" style="border:4px solid #3cb371;" src="SBISD Calendar.jpeg" width="999" height="300"></iframe>
+
+<!-- button to and script to change contents of iFrame -->
+
+<button onclick="changeFile()">Next File</button>
+
+<script>
+    const files = ["change 3.txt", "icecream.jpeg", "Wyattandicecream.jpeg", "blackrhino.jpeg", "loadtabletestA.txt", "notes to self.txt", "test2 1A.html", "passwordinfo.txt", "paper for web.txt"];
+    let currentIndex = 0;
+
+    function changeFile() {
+      currentIndex = (currentIndex + 1) % files.length;
+      document.getElementById("myIframe").src = files[currentIndex];
+    }
+  </script>
+
+<!-- display and size a jpeg -->
+
+<!--<img src="/Users/joehood/Desktop/MISC STUFF folder/Wyattandicecream.jpeg" 
+alt="Early 2" style="width:100px;height:150px;">
+<img src="/Users/joehood/Desktop/MISC STUFF folder/icecream.jpeg" 
+alt="Early" style="width:100px;height:125px;">-->
+
+<!-- setup and change color mid sentence -->
+
+<style>
+  .highlight {
+    color:#ff0000;
+  }
+</style>
+<p style="color:blue;">
+This is a <span class="highlight">not blue</span> word in a sentence.<br>
+<span style="color:#00ff00;">Now we are green except for a <span class="highlight">red</span> word.
+</p>
+
+<!-- another example od time/date routine -->
+<button onclick="this.innerHTML=Date()">The time is?</button>
+
+<p id="demoAA"></p>
+<script>
+document.getElementById("demoAA").innerHTML ="Page path is: " + window.location.pathname;
+</script>
+</body>
+</html>
+
