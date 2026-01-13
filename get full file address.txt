@@ -1,5 +1,5 @@
 Change 3
-'/Users/joehood/Library/Mobile Documents/iCloud~com~omz-software~Pythonista3/Documents/JoePrograms/output.txt'
+'/Users/usernsme/Library/Mobile Documents/iCloud~com~omz-software~Pythonista3/Documents/JoePrograms/output.txt'
 
 
 This is a quick way to copy a file's path without altering the Finder window. 
